@@ -28,7 +28,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 """### Download Dataset"""
-# Initial dataset setting code was written collaboratively between all group members
 raw_dataset_url = "https://raw.githubusercontent.com/Geo-y20/Telco-Customer-Churn-/refs/heads/main/Telco%20Customer%20Churn.csv"
 try:
     df = pd.read_csv(raw_dataset_url)
@@ -38,8 +37,6 @@ except Exception as e:
     df = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
 """### Initial Examination of Data"""
-
-# Seyi originally wrote this code and was reviewed by Zachary, Dharmik, and Ceasar
 df.head()
 df_work = df.copy()
 # Get information on working dataset
@@ -49,10 +46,6 @@ df_work.info()
 print(df_work.isnull().sum())
 
 """### Initial Cleaning of Data"""
-
-# This part originally written by Seyi, but needed adjustment for splitting
-# Zachary edited
-
 # Drop duplicate rows based on customerID
 duplicate_rows = df_work[df_work.duplicated(subset="customerID", keep="first")]
 df_work = df_work.drop_duplicates(subset="customerID", keep="first")
@@ -98,8 +91,6 @@ print(df_work.info())
 
 """### Splitting out Training, Validation, and Testing data"""
 
-# Zachary wrote this code to split out training, test, and verification data
-
 # Separate training and test data
 target = 'Churn'
 
@@ -110,7 +101,6 @@ x = df_work.drop(columns=[target, 'customerID'])
 # y has only Churn
 y = df_work[target]
 
-# Zachary wrote this code to split out training, test, and verification data
 # Now let's split the data into training, test, and verification
 # Since this is a Classification problem, we will need to stratify the data
 # and it should be stratified based on the target data.
