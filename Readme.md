@@ -1,6 +1,6 @@
 ### Group 2
 
-Zach, Dharmik, Ayesha, Cesar, Sey
+Zach, Dharmik, Ayesha, Cesar, Seyi
 
 See requirements.txt for needed modules.
 
