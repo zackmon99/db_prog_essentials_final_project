@@ -1,0 +1,1585 @@
+Random Forest Data Analysis
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 5
+min_samples_split: 2
+
+ Training Set Results
+[[3370  244]
+ [ 731  577]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.93      0.87      3614
+         Yes       0.70      0.44      0.54      1308
+
+    accuracy                           0.80      4922
+   macro avg       0.76      0.69      0.71      4922
+weighted avg       0.79      0.80      0.79      4922
+
+
+ Validation Set Results
+[[719  56]
+ [169 111]]
+              precision    recall  f1-score   support
+
+          No       0.81      0.93      0.86       775
+         Yes       0.66      0.40      0.50       280
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.66      0.68      1055
+weighted avg       0.77      0.79      0.77      1055
+
+
+ Test Set Results
+[[726  48]
+ [180 101]]
+              precision    recall  f1-score   support
+
+          No       0.80      0.94      0.86       774
+         Yes       0.68      0.36      0.47       281
+
+    accuracy                           0.78      1055
+   macro avg       0.74      0.65      0.67      1055
+weighted avg       0.77      0.78      0.76      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 5
+min_samples_split: 5
+
+ Training Set Results
+[[3369  245]
+ [ 731  577]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.93      0.87      3614
+         Yes       0.70      0.44      0.54      1308
+
+    accuracy                           0.80      4922
+   macro avg       0.76      0.69      0.71      4922
+weighted avg       0.79      0.80      0.79      4922
+
+
+ Validation Set Results
+[[719  56]
+ [169 111]]
+              precision    recall  f1-score   support
+
+          No       0.81      0.93      0.86       775
+         Yes       0.66      0.40      0.50       280
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.66      0.68      1055
+weighted avg       0.77      0.79      0.77      1055
+
+
+ Test Set Results
+[[726  48]
+ [180 101]]
+              precision    recall  f1-score   support
+
+          No       0.80      0.94      0.86       774
+         Yes       0.68      0.36      0.47       281
+
+    accuracy                           0.78      1055
+   macro avg       0.74      0.65      0.67      1055
+weighted avg       0.77      0.78      0.76      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 5
+min_samples_split: 10
+
+ Training Set Results
+[[3375  239]
+ [ 736  572]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.93      0.87      3614
+         Yes       0.71      0.44      0.54      1308
+
+    accuracy                           0.80      4922
+   macro avg       0.76      0.69      0.71      4922
+weighted avg       0.79      0.80      0.79      4922
+
+
+ Validation Set Results
+[[719  56]
+ [169 111]]
+              precision    recall  f1-score   support
+
+          No       0.81      0.93      0.86       775
+         Yes       0.66      0.40      0.50       280
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.66      0.68      1055
+weighted avg       0.77      0.79      0.77      1055
+
+
+ Test Set Results
+[[726  48]
+ [181 100]]
+              precision    recall  f1-score   support
+
+          No       0.80      0.94      0.86       774
+         Yes       0.68      0.36      0.47       281
+
+    accuracy                           0.78      1055
+   macro avg       0.74      0.65      0.66      1055
+weighted avg       0.77      0.78      0.76      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 10
+min_samples_split: 2
+
+ Training Set Results
+[[3420  194]
+ [ 451  857]]
+              precision    recall  f1-score   support
+
+          No       0.88      0.95      0.91      3614
+         Yes       0.82      0.66      0.73      1308
+
+    accuracy                           0.87      4922
+   macro avg       0.85      0.80      0.82      4922
+weighted avg       0.87      0.87      0.86      4922
+
+
+ Validation Set Results
+[[695  80]
+ [133 147]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.53      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[704  70]
+ [144 137]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.66      0.49      0.56       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.70      0.71      1055
+weighted avg       0.79      0.80      0.79      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 10
+min_samples_split: 5
+
+ Training Set Results
+[[3408  206]
+ [ 472  836]]
+              precision    recall  f1-score   support
+
+          No       0.88      0.94      0.91      3614
+         Yes       0.80      0.64      0.71      1308
+
+    accuracy                           0.86      4922
+   macro avg       0.84      0.79      0.81      4922
+weighted avg       0.86      0.86      0.86      4922
+
+
+ Validation Set Results
+[[697  78]
+ [136 144]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.51      0.57       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[704  70]
+ [143 138]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.66      0.49      0.56       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.70      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 10
+min_samples_split: 10
+
+ Training Set Results
+[[3390  224]
+ [ 521  787]]
+              precision    recall  f1-score   support
+
+          No       0.87      0.94      0.90      3614
+         Yes       0.78      0.60      0.68      1308
+
+    accuracy                           0.85      4922
+   macro avg       0.82      0.77      0.79      4922
+weighted avg       0.84      0.85      0.84      4922
+
+
+ Validation Set Results
+[[692  83]
+ [134 146]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.89      0.86       775
+         Yes       0.64      0.52      0.57       280
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.78      0.79      0.79      1055
+
+
+ Test Set Results
+[[709  65]
+ [146 135]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.92      0.87       774
+         Yes       0.68      0.48      0.56       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.70      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 15
+min_samples_split: 2
+
+ Training Set Results
+[[3577   37]
+ [  16 1292]]
+              precision    recall  f1-score   support
+
+          No       1.00      0.99      0.99      3614
+         Yes       0.97      0.99      0.98      1308
+
+    accuracy                           0.99      4922
+   macro avg       0.98      0.99      0.99      4922
+weighted avg       0.99      0.99      0.99      4922
+
+
+ Validation Set Results
+[[690  85]
+ [132 148]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.89      0.86       775
+         Yes       0.64      0.53      0.58       280
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.79      0.79      0.79      1055
+
+
+ Test Set Results
+[[689  85]
+ [136 145]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.89      0.86       774
+         Yes       0.63      0.52      0.57       281
+
+    accuracy                           0.79      1055
+   macro avg       0.73      0.70      0.71      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 15
+min_samples_split: 5
+
+ Training Set Results
+[[3526   88]
+ [ 216 1092]]
+              precision    recall  f1-score   support
+
+          No       0.94      0.98      0.96      3614
+         Yes       0.93      0.83      0.88      1308
+
+    accuracy                           0.94      4922
+   macro avg       0.93      0.91      0.92      4922
+weighted avg       0.94      0.94      0.94      4922
+
+
+ Validation Set Results
+[[694  81]
+ [131 149]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.53      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.73      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[698  76]
+ [145 136]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.90      0.86       774
+         Yes       0.64      0.48      0.55       281
+
+    accuracy                           0.79      1055
+   macro avg       0.73      0.69      0.71      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 15
+min_samples_split: 10
+
+ Training Set Results
+[[3470  144]
+ [ 407  901]]
+              precision    recall  f1-score   support
+
+          No       0.90      0.96      0.93      3614
+         Yes       0.86      0.69      0.77      1308
+
+    accuracy                           0.89      4922
+   macro avg       0.88      0.82      0.85      4922
+weighted avg       0.89      0.89      0.88      4922
+
+
+ Validation Set Results
+[[694  81]
+ [128 152]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.54      0.59       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.72      0.73      1055
+weighted avg       0.79      0.80      0.80      1055
+
+
+ Test Set Results
+[[702  72]
+ [149 132]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.91      0.86       774
+         Yes       0.65      0.47      0.54       281
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.69      0.70      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 20
+min_samples_split: 2
+
+ Training Set Results
+[[3609    5]
+ [   9 1299]]
+              precision    recall  f1-score   support
+
+          No       1.00      1.00      1.00      3614
+         Yes       1.00      0.99      0.99      1308
+
+    accuracy                           1.00      4922
+   macro avg       1.00      1.00      1.00      4922
+weighted avg       1.00      1.00      1.00      4922
+
+
+ Validation Set Results
+[[698  77]
+ [134 146]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.52      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[693  81]
+ [149 132]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.90      0.86       774
+         Yes       0.62      0.47      0.53       281
+
+    accuracy                           0.78      1055
+   macro avg       0.72      0.68      0.70      1055
+weighted avg       0.77      0.78      0.77      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 20
+min_samples_split: 5
+
+ Training Set Results
+[[3565   49]
+ [ 189 1119]]
+              precision    recall  f1-score   support
+
+          No       0.95      0.99      0.97      3614
+         Yes       0.96      0.86      0.90      1308
+
+    accuracy                           0.95      4922
+   macro avg       0.95      0.92      0.94      4922
+weighted avg       0.95      0.95      0.95      4922
+
+
+ Validation Set Results
+[[697  78]
+ [132 148]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.53      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.71      0.73      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[700  74]
+ [144 137]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.90      0.87       774
+         Yes       0.65      0.49      0.56       281
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.70      0.71      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 100
+max_depth: 20
+min_samples_split: 10
+
+ Training Set Results
+[[3490  124]
+ [ 380  928]]
+              precision    recall  f1-score   support
+
+          No       0.90      0.97      0.93      3614
+         Yes       0.88      0.71      0.79      1308
+
+    accuracy                           0.90      4922
+   macro avg       0.89      0.84      0.86      4922
+weighted avg       0.90      0.90      0.89      4922
+
+
+ Validation Set Results
+[[698  77]
+ [132 148]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.66      0.53      0.59       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.71      0.73      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[701  73]
+ [149 132]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.91      0.86       774
+         Yes       0.64      0.47      0.54       281
+
+    accuracy                           0.79      1055
+   macro avg       0.73      0.69      0.70      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 5
+min_samples_split: 2
+
+ Training Set Results
+[[3378  236]
+ [ 726  582]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.93      0.88      3614
+         Yes       0.71      0.44      0.55      1308
+
+    accuracy                           0.80      4922
+   macro avg       0.77      0.69      0.71      4922
+weighted avg       0.79      0.80      0.79      4922
+
+
+ Validation Set Results
+[[717  58]
+ [168 112]]
+              precision    recall  f1-score   support
+
+          No       0.81      0.93      0.86       775
+         Yes       0.66      0.40      0.50       280
+
+    accuracy                           0.79      1055
+   macro avg       0.73      0.66      0.68      1055
+weighted avg       0.77      0.79      0.77      1055
+
+
+ Test Set Results
+[[726  48]
+ [181 100]]
+              precision    recall  f1-score   support
+
+          No       0.80      0.94      0.86       774
+         Yes       0.68      0.36      0.47       281
+
+    accuracy                           0.78      1055
+   macro avg       0.74      0.65      0.66      1055
+weighted avg       0.77      0.78      0.76      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 5
+min_samples_split: 5
+
+ Training Set Results
+[[3379  235]
+ [ 727  581]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.93      0.88      3614
+         Yes       0.71      0.44      0.55      1308
+
+    accuracy                           0.80      4922
+   macro avg       0.77      0.69      0.71      4922
+weighted avg       0.79      0.80      0.79      4922
+
+
+ Validation Set Results
+[[718  57]
+ [168 112]]
+              precision    recall  f1-score   support
+
+          No       0.81      0.93      0.86       775
+         Yes       0.66      0.40      0.50       280
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.66      0.68      1055
+weighted avg       0.77      0.79      0.77      1055
+
+
+ Test Set Results
+[[727  47]
+ [182  99]]
+              precision    recall  f1-score   support
+
+          No       0.80      0.94      0.86       774
+         Yes       0.68      0.35      0.46       281
+
+    accuracy                           0.78      1055
+   macro avg       0.74      0.65      0.66      1055
+weighted avg       0.77      0.78      0.76      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 5
+min_samples_split: 10
+
+ Training Set Results
+[[3379  235]
+ [ 728  580]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.93      0.88      3614
+         Yes       0.71      0.44      0.55      1308
+
+    accuracy                           0.80      4922
+   macro avg       0.77      0.69      0.71      4922
+weighted avg       0.79      0.80      0.79      4922
+
+
+ Validation Set Results
+[[718  57]
+ [168 112]]
+              precision    recall  f1-score   support
+
+          No       0.81      0.93      0.86       775
+         Yes       0.66      0.40      0.50       280
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.66      0.68      1055
+weighted avg       0.77      0.79      0.77      1055
+
+
+ Test Set Results
+[[727  47]
+ [181 100]]
+              precision    recall  f1-score   support
+
+          No       0.80      0.94      0.86       774
+         Yes       0.68      0.36      0.47       281
+
+    accuracy                           0.78      1055
+   macro avg       0.74      0.65      0.67      1055
+weighted avg       0.77      0.78      0.76      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 10
+min_samples_split: 2
+
+ Training Set Results
+[[3421  193]
+ [ 451  857]]
+              precision    recall  f1-score   support
+
+          No       0.88      0.95      0.91      3614
+         Yes       0.82      0.66      0.73      1308
+
+    accuracy                           0.87      4922
+   macro avg       0.85      0.80      0.82      4922
+weighted avg       0.87      0.87      0.86      4922
+
+
+ Validation Set Results
+[[695  80]
+ [134 146]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.52      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[707  67]
+ [147 134]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.67      0.48      0.56       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.70      0.71      1055
+weighted avg       0.78      0.80      0.79      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 10
+min_samples_split: 5
+
+ Training Set Results
+[[3414  200]
+ [ 473  835]]
+              precision    recall  f1-score   support
+
+          No       0.88      0.94      0.91      3614
+         Yes       0.81      0.64      0.71      1308
+
+    accuracy                           0.86      4922
+   macro avg       0.84      0.79      0.81      4922
+weighted avg       0.86      0.86      0.86      4922
+
+
+ Validation Set Results
+[[695  80]
+ [135 145]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.64      0.52      0.57       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[706  68]
+ [146 135]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.67      0.48      0.56       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.70      0.71      1055
+weighted avg       0.79      0.80      0.79      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 10
+min_samples_split: 10
+
+ Training Set Results
+[[3407  207]
+ [ 521  787]]
+              precision    recall  f1-score   support
+
+          No       0.87      0.94      0.90      3614
+         Yes       0.79      0.60      0.68      1308
+
+    accuracy                           0.85      4922
+   macro avg       0.83      0.77      0.79      4922
+weighted avg       0.85      0.85      0.85      4922
+
+
+ Validation Set Results
+[[695  80]
+ [136 144]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.64      0.51      0.57       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.78      0.80      0.79      1055
+
+
+ Test Set Results
+[[709  65]
+ [149 132]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.92      0.87       774
+         Yes       0.67      0.47      0.55       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.69      0.71      1055
+weighted avg       0.78      0.80      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 15
+min_samples_split: 2
+
+ Training Set Results
+[[3583   31]
+ [  12 1296]]
+              precision    recall  f1-score   support
+
+          No       1.00      0.99      0.99      3614
+         Yes       0.98      0.99      0.98      1308
+
+    accuracy                           0.99      4922
+   macro avg       0.99      0.99      0.99      4922
+weighted avg       0.99      0.99      0.99      4922
+
+
+ Validation Set Results
+[[693  82]
+ [131 149]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.89      0.87       775
+         Yes       0.65      0.53      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[698  76]
+ [142 139]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.90      0.86       774
+         Yes       0.65      0.49      0.56       281
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.70      0.71      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 15
+min_samples_split: 5
+
+ Training Set Results
+[[3533   81]
+ [ 220 1088]]
+              precision    recall  f1-score   support
+
+          No       0.94      0.98      0.96      3614
+         Yes       0.93      0.83      0.88      1308
+
+    accuracy                           0.94      4922
+   macro avg       0.94      0.90      0.92      4922
+weighted avg       0.94      0.94      0.94      4922
+
+
+ Validation Set Results
+[[692  83]
+ [127 153]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.89      0.87       775
+         Yes       0.65      0.55      0.59       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.72      0.73      1055
+weighted avg       0.79      0.80      0.80      1055
+
+
+ Test Set Results
+[[698  76]
+ [144 137]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.90      0.86       774
+         Yes       0.64      0.49      0.55       281
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.69      0.71      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 15
+min_samples_split: 10
+
+ Training Set Results
+[[3469  145]
+ [ 404  904]]
+              precision    recall  f1-score   support
+
+          No       0.90      0.96      0.93      3614
+         Yes       0.86      0.69      0.77      1308
+
+    accuracy                           0.89      4922
+   macro avg       0.88      0.83      0.85      4922
+weighted avg       0.89      0.89      0.88      4922
+
+
+ Validation Set Results
+[[694  81]
+ [131 149]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.53      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.73      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[704  70]
+ [147 134]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.66      0.48      0.55       281
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.69      0.71      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 20
+min_samples_split: 2
+
+ Training Set Results
+[[3609    5]
+ [   8 1300]]
+              precision    recall  f1-score   support
+
+          No       1.00      1.00      1.00      3614
+         Yes       1.00      0.99      1.00      1308
+
+    accuracy                           1.00      4922
+   macro avg       1.00      1.00      1.00      4922
+weighted avg       1.00      1.00      1.00      4922
+
+
+ Validation Set Results
+[[698  77]
+ [131 149]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.66      0.53      0.59       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.72      0.73      1055
+weighted avg       0.79      0.80      0.80      1055
+
+
+ Test Set Results
+[[696  78]
+ [147 134]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.90      0.86       774
+         Yes       0.63      0.48      0.54       281
+
+    accuracy                           0.79      1055
+   macro avg       0.73      0.69      0.70      1055
+weighted avg       0.77      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 20
+min_samples_split: 5
+
+ Training Set Results
+[[3564   50]
+ [ 182 1126]]
+              precision    recall  f1-score   support
+
+          No       0.95      0.99      0.97      3614
+         Yes       0.96      0.86      0.91      1308
+
+    accuracy                           0.95      4922
+   macro avg       0.95      0.92      0.94      4922
+weighted avg       0.95      0.95      0.95      4922
+
+
+ Validation Set Results
+[[693  82]
+ [128 152]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.89      0.87       775
+         Yes       0.65      0.54      0.59       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.72      0.73      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[703  71]
+ [144 137]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.66      0.49      0.56       281
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.70      0.71      1055
+weighted avg       0.78      0.80      0.79      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 200
+max_depth: 20
+min_samples_split: 10
+
+ Training Set Results
+[[3492  122]
+ [ 387  921]]
+              precision    recall  f1-score   support
+
+          No       0.90      0.97      0.93      3614
+         Yes       0.88      0.70      0.78      1308
+
+    accuracy                           0.90      4922
+   macro avg       0.89      0.84      0.86      4922
+weighted avg       0.90      0.90      0.89      4922
+
+
+ Validation Set Results
+[[698  77]
+ [134 146]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.52      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[704  70]
+ [144 137]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.66      0.49      0.56       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.70      0.71      1055
+weighted avg       0.79      0.80      0.79      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 5
+min_samples_split: 2
+
+ Training Set Results
+[[3377  237]
+ [ 721  587]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.93      0.88      3614
+         Yes       0.71      0.45      0.55      1308
+
+    accuracy                           0.81      4922
+   macro avg       0.77      0.69      0.71      4922
+weighted avg       0.79      0.81      0.79      4922
+
+
+ Validation Set Results
+[[718  57]
+ [168 112]]
+              precision    recall  f1-score   support
+
+          No       0.81      0.93      0.86       775
+         Yes       0.66      0.40      0.50       280
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.66      0.68      1055
+weighted avg       0.77      0.79      0.77      1055
+
+
+ Test Set Results
+[[727  47]
+ [179 102]]
+              precision    recall  f1-score   support
+
+          No       0.80      0.94      0.87       774
+         Yes       0.68      0.36      0.47       281
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.65      0.67      1055
+weighted avg       0.77      0.79      0.76      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 5
+min_samples_split: 5
+
+ Training Set Results
+[[3381  233]
+ [ 722  586]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.94      0.88      3614
+         Yes       0.72      0.45      0.55      1308
+
+    accuracy                           0.81      4922
+   macro avg       0.77      0.69      0.71      4922
+weighted avg       0.80      0.81      0.79      4922
+
+
+ Validation Set Results
+[[718  57]
+ [168 112]]
+              precision    recall  f1-score   support
+
+          No       0.81      0.93      0.86       775
+         Yes       0.66      0.40      0.50       280
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.66      0.68      1055
+weighted avg       0.77      0.79      0.77      1055
+
+
+ Test Set Results
+[[728  46]
+ [179 102]]
+              precision    recall  f1-score   support
+
+          No       0.80      0.94      0.87       774
+         Yes       0.69      0.36      0.48       281
+
+    accuracy                           0.79      1055
+   macro avg       0.75      0.65      0.67      1055
+weighted avg       0.77      0.79      0.76      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 5
+min_samples_split: 10
+
+ Training Set Results
+[[3381  233]
+ [ 721  587]]
+              precision    recall  f1-score   support
+
+          No       0.82      0.94      0.88      3614
+         Yes       0.72      0.45      0.55      1308
+
+    accuracy                           0.81      4922
+   macro avg       0.77      0.69      0.71      4922
+weighted avg       0.80      0.81      0.79      4922
+
+
+ Validation Set Results
+[[718  57]
+ [167 113]]
+              precision    recall  f1-score   support
+
+          No       0.81      0.93      0.87       775
+         Yes       0.66      0.40      0.50       280
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.67      0.68      1055
+weighted avg       0.77      0.79      0.77      1055
+
+
+ Test Set Results
+[[727  47]
+ [180 101]]
+              precision    recall  f1-score   support
+
+          No       0.80      0.94      0.86       774
+         Yes       0.68      0.36      0.47       281
+
+    accuracy                           0.78      1055
+   macro avg       0.74      0.65      0.67      1055
+weighted avg       0.77      0.78      0.76      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 10
+min_samples_split: 2
+
+ Training Set Results
+[[3433  181]
+ [ 447  861]]
+              precision    recall  f1-score   support
+
+          No       0.88      0.95      0.92      3614
+         Yes       0.83      0.66      0.73      1308
+
+    accuracy                           0.87      4922
+   macro avg       0.86      0.80      0.82      4922
+weighted avg       0.87      0.87      0.87      4922
+
+
+ Validation Set Results
+[[696  79]
+ [134 146]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.52      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[706  68]
+ [149 132]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.66      0.47      0.55       281
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.69      0.71      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 10
+min_samples_split: 5
+
+ Training Set Results
+[[3416  198]
+ [ 479  829]]
+              precision    recall  f1-score   support
+
+          No       0.88      0.95      0.91      3614
+         Yes       0.81      0.63      0.71      1308
+
+    accuracy                           0.86      4922
+   macro avg       0.84      0.79      0.81      4922
+weighted avg       0.86      0.86      0.86      4922
+
+
+ Validation Set Results
+[[695  80]
+ [134 146]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.52      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[710  64]
+ [148 133]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.92      0.87       774
+         Yes       0.68      0.47      0.56       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.70      0.71      1055
+weighted avg       0.79      0.80      0.79      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 10
+min_samples_split: 10
+
+ Training Set Results
+[[3408  206]
+ [ 512  796]]
+              precision    recall  f1-score   support
+
+          No       0.87      0.94      0.90      3614
+         Yes       0.79      0.61      0.69      1308
+
+    accuracy                           0.85      4922
+   macro avg       0.83      0.78      0.80      4922
+weighted avg       0.85      0.85      0.85      4922
+
+
+ Validation Set Results
+[[696  79]
+ [134 146]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.52      0.58       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[709  65]
+ [150 131]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.92      0.87       774
+         Yes       0.67      0.47      0.55       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.69      0.71      1055
+weighted avg       0.78      0.80      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 15
+min_samples_split: 2
+
+ Training Set Results
+[[3587   27]
+ [  12 1296]]
+              precision    recall  f1-score   support
+
+          No       1.00      0.99      0.99      3614
+         Yes       0.98      0.99      0.99      1308
+
+    accuracy                           0.99      4922
+   macro avg       0.99      0.99      0.99      4922
+weighted avg       0.99      0.99      0.99      4922
+
+
+ Validation Set Results
+[[693  82]
+ [129 151]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.89      0.87       775
+         Yes       0.65      0.54      0.59       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.72      0.73      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[695  79]
+ [142 139]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.90      0.86       774
+         Yes       0.64      0.49      0.56       281
+
+    accuracy                           0.79      1055
+   macro avg       0.73      0.70      0.71      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 15
+min_samples_split: 5
+
+ Training Set Results
+[[3529   85]
+ [ 212 1096]]
+              precision    recall  f1-score   support
+
+          No       0.94      0.98      0.96      3614
+         Yes       0.93      0.84      0.88      1308
+
+    accuracy                           0.94      4922
+   macro avg       0.94      0.91      0.92      4922
+weighted avg       0.94      0.94      0.94      4922
+
+
+ Validation Set Results
+[[694  81]
+ [126 154]]
+              precision    recall  f1-score   support
+
+          No       0.85      0.90      0.87       775
+         Yes       0.66      0.55      0.60       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.72      0.73      1055
+weighted avg       0.80      0.80      0.80      1055
+
+
+ Test Set Results
+[[697  77]
+ [143 138]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.90      0.86       774
+         Yes       0.64      0.49      0.56       281
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.70      0.71      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 15
+min_samples_split: 10
+
+ Training Set Results
+[[3470  144]
+ [ 407  901]]
+              precision    recall  f1-score   support
+
+          No       0.90      0.96      0.93      3614
+         Yes       0.86      0.69      0.77      1308
+
+    accuracy                           0.89      4922
+   macro avg       0.88      0.82      0.85      4922
+weighted avg       0.89      0.89      0.88      4922
+
+
+ Validation Set Results
+[[694  81]
+ [130 150]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.65      0.54      0.59       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.72      0.73      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[705  69]
+ [145 136]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.66      0.48      0.56       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.70      0.71      1055
+weighted avg       0.79      0.80      0.79      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 20
+min_samples_split: 2
+
+ Training Set Results
+[[3610    4]
+ [   9 1299]]
+              precision    recall  f1-score   support
+
+          No       1.00      1.00      1.00      3614
+         Yes       1.00      0.99      1.00      1308
+
+    accuracy                           1.00      4922
+   macro avg       1.00      1.00      1.00      4922
+weighted avg       1.00      1.00      1.00      4922
+
+
+ Validation Set Results
+[[695  80]
+ [135 145]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.64      0.52      0.57       280
+
+    accuracy                           0.80      1055
+   macro avg       0.74      0.71      0.72      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[699  75]
+ [147 134]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.90      0.86       774
+         Yes       0.64      0.48      0.55       281
+
+    accuracy                           0.79      1055
+   macro avg       0.73      0.69      0.70      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 20
+min_samples_split: 5
+
+ Training Set Results
+[[3565   49]
+ [ 185 1123]]
+              precision    recall  f1-score   support
+
+          No       0.95      0.99      0.97      3614
+         Yes       0.96      0.86      0.91      1308
+
+    accuracy                           0.95      4922
+   macro avg       0.95      0.92      0.94      4922
+weighted avg       0.95      0.95      0.95      4922
+
+
+ Validation Set Results
+[[697  78]
+ [131 149]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.66      0.53      0.59       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.72      0.73      1055
+weighted avg       0.79      0.80      0.79      1055
+
+
+ Test Set Results
+[[703  71]
+ [146 135]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.66      0.48      0.55       281
+
+    accuracy                           0.79      1055
+   macro avg       0.74      0.69      0.71      1055
+weighted avg       0.78      0.79      0.78      1055
+
+==================================================
+START RESULTS WITH PARAMETERS:
+n_estimators: 300
+max_depth: 20
+min_samples_split: 10
+
+ Training Set Results
+[[3494  120]
+ [ 384  924]]
+              precision    recall  f1-score   support
+
+          No       0.90      0.97      0.93      3614
+         Yes       0.89      0.71      0.79      1308
+
+    accuracy                           0.90      4922
+   macro avg       0.89      0.84      0.86      4922
+weighted avg       0.90      0.90      0.89      4922
+
+
+ Validation Set Results
+[[697  78]
+ [129 151]]
+              precision    recall  f1-score   support
+
+          No       0.84      0.90      0.87       775
+         Yes       0.66      0.54      0.59       280
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.72      0.73      1055
+weighted avg       0.79      0.80      0.80      1055
+
+
+ Test Set Results
+[[706  68]
+ [146 135]]
+              precision    recall  f1-score   support
+
+          No       0.83      0.91      0.87       774
+         Yes       0.67      0.48      0.56       281
+
+    accuracy                           0.80      1055
+   macro avg       0.75      0.70      0.71      1055
+weighted avg       0.79      0.80      0.79      1055
+
